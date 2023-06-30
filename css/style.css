@@ -1,5 +1,65 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Lora:ital@1&family=Ysabeau+SC&display=swap');
 
- body {font-family: 'Lato', sans-serif;
-  font-family: 'Lora', serif;
-  font-family: 'Ysabeau SC', sans-serif;}
+body {
+  font-family: 'Lato', sans-serif;
+  font-family: 'Ysabeau SC', sans-serif;
+}
+td {
+  border: 1px solid black;
+  widows: 200px;
+  text-align: center;
+}
+table {
+  border: solid black;
+  border-collapse: collapse;
+  background-image: linear-gradient(#ff9999);
+}
+tbody tr:nth-child(even) {
+  background-color: #cce6ff;
+}
+tbody tr:nth-child(odd) {
+  background-color: #ffb3b3;
+}
+input {
+  background-color: coral;
+}
+.salesBody {
+  background-color: honeydew;
+}
+.home {
+  background-color: navajowhite;
+}
+input:invalid {
+  border: dashed navy;
+}
+
+input:valid {
+  border: solid black;
+}
+fieldset {
+  justify-content: space-evenly;
+  background-color: darkgray;
+}
+tfoot {
+  background-color: red;
+}
+#headerContainerSales {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  margin-bottom: 10px;
+  background-color: cyan;
+}
+nav ul {
+  list-style: none;
+  gap: 10px;
+  display: flex;
+  flex-direction: row;
+}
+#headerContainer {
+  display: flex;
+  justify-content: space-between;
+  height: 90px;
+  margin-bottom: 1px;
+  background-color: cyan;
+}

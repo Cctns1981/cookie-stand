@@ -7,11 +7,27 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="index.html">
   </head>
-  <body>
+  <body class="salesBody">
 
     <header></header>
-    <main id="cities"></main>
-    <div>
+    <main>
+    <section id="cities">
+      <form id="new shop">
+        <fieldset>
+          <lengend> Salmon Cookie Shop</lengend>
+          <label for="cityName">Enter City</label>
+          <input type="text"name="cityName"id="cityName" required /> 
+          <label type="maxCrust">Minimun Customer Sales</label>
+          <input for="text" name="maxCrust" id="maxCrust" required/>
+          <label type="minCrust">Maximum Customer Sales</label>
+          <input for="text" name="minCrust" id="minCrust" required/>
+          <label type="aveCookiesSales">Avg Cookie Sales</label> 
+          <input for="text" name="aveCookiesSales" id="aveCookiesSales" required >
+          <button type="submit">Submit</button>
+        </fieldset>
+      </form>
+    </section>
+     <div>
       <img src="https://github.com/CodeXAcademyTechnologies/springhill-code-201n2/blob/main/class-08/lab-b/assets/family.jpg?raw=true"
       alt="family"
     </div>
@@ -26,6 +42,7 @@
       height="200"
       width="200"
       alt="frosted-cookie"
+    </main>
     </footer>
     <script src="app.js"></script>
   </body>
