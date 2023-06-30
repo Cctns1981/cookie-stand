@@ -1,4 +1,3 @@
 # cookie-stand
-
-![lighthouse3](Images/Screenshot 2023-06-29 at 8.36.01 PM.png)
-![Lighthouse4]!(Images/Screenshot 2023-06-29 at 8.36.48 PM.png)
+![lighthouse1](Images/Screenshot%202023-06-29%20at%208.36.01%20PM.png)
+![lighthouse2](Images/Screenshot%202023-06-29%20at%208.36.48%20PM.png)
